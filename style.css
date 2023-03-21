@@ -69,9 +69,18 @@ line-height: 100px;
     grid-row:span 2;
     background-color: #5166d6;
     color: #fffb !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -1px -1px 4px rgba(0, 0, 0, 0.1)
+}
+.row2:active{
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -3px -3px 4px rgba(0, 0, 0, 0.1) !important;
 }
 #symbol{
     background-color: #5166d6;
     color: #fffb !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -1px -1px 4px rgba(0, 0, 0, 0.1);
 }
+#symbol:active{
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -3px -3px 4px rgba(0, 0, 0, 0.1);
+}
+
 
